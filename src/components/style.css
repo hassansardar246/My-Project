@@ -1,0 +1,126 @@
+.main_container {
+  background-color: #22262f;
+}
+.card {
+  background-color: #272b35;
+  border-radius: 25px;
+}
+.card-title {
+  color: #ffffff;
+}
+.card-text {
+  color: #c6c7c9;
+}
+.card a {
+  color: #e25050;
+}
+.category_icon i {
+  color: #e25050;
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #22262f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  align-items: center;
+}
+.btn_movie {
+  border-radius: 20px;
+  height: 50px;
+  width: 90px;
+  padding: 0 20px 0 20px;
+  transition-duration: 0.4s;
+  background-color: #22262f;
+  border: 2px solid #4e5258;
+  color: #ffff;
+}
+.btn_movie.active {
+  background-color: #e25050;
+  color: white;
+}
+
+.btn_movie:hover {
+  background-color: #e25050;
+  color: white;
+}
+.seemore i {
+  padding: 10px;
+}
+.seemore a {
+  color: #9c9da1;
+}
+
+.single-table {
+  background: #252932;
+  color: #9c9da1;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  z-index: 1;
+  border-radius: 20px;
+  padding: 40px 20px 40px 20px;
+}
+
+.single-table:hover {
+  background-color: #2b303b;
+}
+
+.single-table .plan-header h3 {
+  padding: 20px 0 5px 0;
+  color: #ffffff;
+}
+
+.single-table .plan-price {
+  display: inline-block;
+  color: #e25050;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.single-table .plan-price span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #9c9da1;
+}
+.single-table ul {
+  color: #e25050;
+}
+.list_text {
+  color: #9c9da1;
+}
+
+.single-table ul li {
+  padding: 8px 0;
+  font-size: 15px;
+  background-image: url(../images/c.png);
+}
+
+.single-table .plan-submit {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 1px solid #e25050;
+  color: #e25050;
+  font-size: 15px;
+  border-radius: 13px;
+}
+.about_plan {
+  color: #9c9da1;
+}
+.about_plan:hover {
+  color: #9c9da1;
+}
+.single-table .plan-submit:hover {
+  background: #e25050;
+  font-weight: bold;
+  color: #fff;
+}
+#pricing-tables .col-md-4:hover {
+  z-index: 2;
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}

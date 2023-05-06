@@ -1,0 +1,16 @@
+.video-quality {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  background-color: brown;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.urls a {
+  text-decoration: none;
+  color: white;
+}
+.urls a:hover {
+  color: rgb(1, 198, 152);
+}

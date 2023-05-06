@@ -1,0 +1,224 @@
+.Main-login{
+    background-image: url(../images/website_large.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 20px;
+    background-position: center;
+    position: relative;
+}
+.Wrapper{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.show{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    color: white;
+    transform: translate(0, -50%);
+}
+.inner-card{
+    position: relative;
+    z-index: 33;
+   background-color: #151110ba;
+   padding: 30px ;
+   width: 30%;
+}
+.inner-card h3{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.inner-card input{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #333333;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.622);
+    
+}
+.cursor-set .show{
+    cursor: pointer;
+}
+.inner-card ::placeholder{
+    color: #84848C;
+}
+.inner-card button{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #FF000B;
+    border: none;
+    color: white;
+}
+.inner-card-check{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.inner-card-remember{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-card-remember>input{
+    /* display: block; */
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.inner-card-remember label{
+    color: #84848C;
+}
+.inner-card-check .Help{
+    text-decoration: none;
+    color: #84848C;
+    display: block;
+    padding-top: 12px;
+}
+.signup{
+    margin-top: 40px;
+}
+.signup p{
+    color: #84848C;
+}
+.signup > p a{
+    text-decoration: none;
+}
+.signup .Now-btn{
+    color: #FF000B;
+}
+.logo-here{
+    width: 80%;
+    margin: auto;
+    z-index: 4;
+    color:  white;
+    position: relative;
+}
+.logo-here h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 1024px)and (max-width: 1300px) {
+    .inner-card{
+        padding: 100px 30px ;
+        width: 40%;
+     }
+     .Wrapper{
+        padding: 60px 0px;
+     }
+     .Main-login{
+        width: 100%;
+        height: inherit;  
+        padding: 0; 
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 1024px) {
+}
+@media only screen and (min-width: 960px)and (max-width: 1023px) {
+    .inner-card{
+        padding: 100px 30px ;
+        width: 60%;
+     }
+     .Wrapper{
+        padding: 60px 0px;
+     }
+     .Main-login{
+        width: 100%;
+        height: inherit;  
+        padding: 0; 
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 956px) {
+    .inner-card{
+        padding: 100px 30px ;
+        width: 60%;
+     }
+     .Main-login{
+         width: 100%;
+         height: inherit;  
+         padding: 0; 
+     }
+     .Wrapper{
+        padding: 60px 0px;
+     }
+     .logo-here{
+        width: 90%;
+        padding-top: 20px;
+    }
+   
+
+     .logo-here h3{
+         font-size: 30px;
+         font-weight: bold;
+     }
+}
+@media only screen and (min-width: 480px) and (max-width: 750px) {
+    .inner-card{
+        padding: 100px 30px ;
+        width: 100%;
+     }
+     .Main-login{
+         width: 100%;
+         height: inherit;
+         padding: 0;
+        
+     }
+     .logo-here{
+         width: 100%;
+ z-index: 100;
+         position: absolute;
+         padding: 10px;
+     }
+     .logo-here h3{
+         font-size: 30px;
+         font-weight: bold;
+     }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .inner-card{
+       padding: 100px 30px ;
+       width: 100%;
+    }
+    .Main-login{
+        width: 100%;
+        height: inherit;
+        padding: 0;
+       
+    }
+    .logo-here{
+        width: 100%;
+z-index: 100;
+        position: absolute;
+        padding: 10px;
+    }
+    .logo-here h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}

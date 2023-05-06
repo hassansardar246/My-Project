@@ -1,0 +1,25 @@
+.faq-section {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding-inline: 20px;
+  justify-content: space-between;
+  color: white;
+  background-color: #132144;
+}
+.cross-btn {
+  font-size: 50px;
+}
+.faq-section:hover {
+  background-color: #223362;
+}
+.faq-description {
+  color: white;
+  width: 90%;
+  padding: 20px;
+  background-color: #132144;
+}
+.faq-heading {
+  font-size: 30px;
+  padding: 20px 0px;
+}

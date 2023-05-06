@@ -1,0 +1,25 @@
+.Main-bg-new-user {
+  background-image: linear-gradient(
+      to right,
+      #01091be8 30%,
+      rgba(0, 0, 0, 0.126)
+    ),
+    url(../images/Movies-background.jpg);
+  width: 100%;
+  background-position: right;
+  background-size: cover;
+}
+.logo {
+  color: white;
+}
+.logo a {
+  font-size: 30px;
+}
+.new-user-singin a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #e50914;
+  border-radius: 5px;
+  font-weight: bold;
+}
